@@ -33,11 +33,11 @@ int main(int argc, char *argv[]) {
             ("Delete todo from the database") |
 
             lyra::opt(get_id, "id")
-            ["-gid"]["--get"]
+            ["-g"]["--get"]
             ("Get a specific todo using it's id.") |
 
             lyra::opt(get_all)
-            ["-g"]["--getall"]
+            ["-a"]["--getall"]
             ("Get all todos.") |
 
             lyra::help(help)
