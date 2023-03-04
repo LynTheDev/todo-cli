@@ -2,6 +2,12 @@
 
 This is a cli app that will probably only work on linux.
 
+## Quick Example:
+```basah
+todo --insert "hello todo!"
+todo --getall
+```
+
 ## Download it:
 Check the releases page.
 
